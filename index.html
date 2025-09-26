@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cloud & DevOps Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">My Portfolio</h1>
+      <nav>
+        <ul class="flex gap-6 text-gray-600">
+          <li><a href="#about" class="hover:text-blue-500">About</a></li>
+          <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+          <li><a href="#stack" class="hover:text-blue-500">Tech Stack</a></li>
+          <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+    <h2 class="text-4xl font-bold mb-4">Hi, I’m Esther Domfeh</h2>
+    <p class="text-lg max-w-2xl mx-auto">Aspiring Cloud & DevOps Engineer passionate about automation, cloud infrastructure, and CI/CD pipelines.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto py-16 px-4">
+    <h3 class="text-2xl font-bold mb-6">About Me</h3>
+    <p>I am a Cloud and DevOps enthusiast with hands-on experience in Docker, Kubernetes, Terraform, and CI/CD pipelines. My goal is to design scalable, secure, and automated cloud solutions.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-100 py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-2xl font-bold mb-8 text-center">Projects</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project Card -->
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">CI/CD Pipeline with GitHub Actions</h4>
+          <p class="text-sm text-gray-600 mb-4">Automated deployment pipeline for a containerized app using GitHub Actions and Docker.</p>
+          <a href="#" class="text-blue-500 hover:underline">View on GitHub →</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">Terraform AWS Infrastructure</h4>
+          <p class="text-sm text-gray-600 mb-4">Provisioned AWS EC2 + S3 using Terraform with reusable modules and state management.</p>
+          <a href="#" class="text-blue-500 hover:underline">View on GitHub →</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">Monitoring with Prometheus & Grafana</h4>
+          <p class="text-sm text-gray-600 mb-4">Implemented observability stack to monitor a Kubernetes cluster with alerts and dashboards.</p>
+          <a href="#" class="text-blue-500 hover:underline">View on GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="stack" class="max-w-4xl mx-auto py-16 px-4">
+    <h3 class="text-2xl font-bold mb-6">Tech Stack</h3>
+    <ul class="flex flex-wrap gap-4 text-gray-700">
+      <li class="bg-gray-200 px-4 py-2 rounded-full">AWS</li>
+      <li class="bg-gray-200 px-4 py-2 rounded-full">Docker</li>
+      <li class="bg-gray-200 px-4 py-2 rounded-full">Kubernetes</li>
+      <li class="bg-gray-200 px-4 py-2 rounded-full">Terraform</li>
+      <li class="bg-gray-200 px-4 py-2 rounded-full">GitHub Actions</li>
+      <li class="bg-gray-200 px-4 py-2 rounded-full">Linux</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-100 py-16 px-4 text-center">
+    <h3 class="text-2xl font-bold mb-6">Get in Touch</h3>
+    <p class="mb-4">Let’s connect! Reach me via:</p>
+    <p class="mb-2">📧 Email: <a href="mailto:youremail@example.com" class="text-blue-500">youremail@example.com</a></p>
+    <p class="mb-2">💼 LinkedIn: <a href="#" class="text-blue-500">linkedin.com/in/yourname</a></p>
+    <p>🐙 GitHub: <a href="#" class="text-blue-500">github.com/yourusername</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 text-center text-gray-500 text-sm">
+    © 2025 Your Name. Built with ❤️ using Tailwind CSS.
+  </footer>
+</body>
+</html>
