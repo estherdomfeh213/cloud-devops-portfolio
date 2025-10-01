@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Portfolio - Your Name</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Fira Code', monospace; }
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* send background behind content */
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <!-- tsparticles CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-200 relative">
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 bg-gray-800/80 backdrop-blur shadow z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold text-cyan-400">[YourName]$</h1>
+      <nav>
+        <ul class="flex gap-6 text-gray-400">
+          <li><a href="#about" class="hover:text-cyan-400">about</a></li>
+          <li><a href="#projects" class="hover:text-cyan-400">projects</a></li>
+          <li><a href="#stack" class="hover:text-cyan-400">stack</a></li>
+          <li><a href="#contact" class="hover:text-cyan-400">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20">
+    <h2 class="text-5xl font-bold text-white mb-4">Hi, I’m [Your Name]</h2>
+    <p class="text-lg text-gray-200 max-w-2xl mx-auto">
+      Aspiring <span class="text-cyan-300">Cloud & DevOps Engineer</span> 🚀 <br />
+      I design automated, scalable, and secure systems.
+    </p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto py-16 px-6">
+    <h3 class="text-2xl font-bold text-purple-400 mb-6">> about_me</h3>
+    <p class="text-gray-300">
+      I am a Cloud and DevOps enthusiast with hands-on experience in Docker, Kubernetes, Terraform, and CI/CD. 
+      My mission is to build reliable infrastructure and streamline deployment pipelines.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="bg-gray-800/70 py-16 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-2xl font-bold text-cyan-400 mb-8">> projects</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-900/90 border border-gray-700 p-6 rounded-xl shadow-lg hover:border-cyan-400 transition">
+          <h4 class="font-semibold text-lg text-purple-300 mb-2">CI/CD Pipeline</h4>
+          <p class="text-sm text-gray-400 mb-4">Automated deployment using GitHub Actions and Docker.</p>
+          <a href="#" class="text-cyan-400 hover:underline">[GitHub Repo]</a>
+        </div>
+        <div class="bg-gray-900/90 border border-gray-700 p-6 rounded-xl shadow-lg hover:border-cyan-400 transition">
+          <h4 class="font-semibold text-lg text-purple-300 mb-2">Terraform AWS Infra</h4>
+          <p class="text-sm text-gray-400 mb-4">Provisioned AWS EC2 + S3 with Terraform modules.</p>
+          <a href="#" class="text-cyan-400 hover:underline">[GitHub Repo]</a>
+        </div>
+        <div class="bg-gray-900/90 border border-gray-700 p-6 rounded-xl shadow-lg hover:border-cyan-400 transition">
+          <h4 class="font-semibold text-lg text-purple-300 mb-2">Monitoring Stack</h4>
+          <p class="text-sm text-gray-400 mb-4">Grafana dashboards & Prometheus alerts for Kubernetes.</p>
+          <a href="#" class="text-cyan-400 hover:underline">[GitHub Repo]</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="stack" class="max-w-4xl mx-auto py-16 px-6">
+    <h3 class="text-2xl font-bold text-purple-400 mb-6">> tech_stack</h3>
+    <div class="flex flex-wrap gap-3">
+      <span class="bg-gray-800 px-4 py-2 rounded-lg text-cyan-300">AWS</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-lg text-cyan-300">Docker</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-lg text-cyan-300">Kubernetes</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-lg text-cyan-300">Terraform</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-lg text-cyan-300">GitHub Actions</span>
+      <span class="bg-gray-800 px-4 py-2 rounded-lg text-cyan-300">Linux</span>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-800/70 py-16 px-6 text-center">
+    <h3 class="text-2xl font-bold text-cyan-400 mb-6">> contact</h3>
+    <p class="text-gray-400 mb-4">Let’s connect!</p>
+    <p class="mb-2">📧 <a href="mailto:youremail@example.com" class="text-purple-300 hover:text-cyan-400">youremail@example.com</a></p>
+    <p class="mb-2">💼 <a href="#" class="text-purple-300 hover:text-cyan-400">linkedin.com/in/yourname</a></p>
+    <p>🐙 <a href="#" class="text-purple-300 hover:text-cyan-400">github.com/yourusername</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 text-center text-gray-600 text-sm border-t border-gray-700">
+    © 2025 Your Name • Built with ❤️ using Tailwind CSS
+  </footer>
+
+  <!-- Particles Config -->
+  <script>
+    tsParticles.load("particles-js", {
+      background: { color: "#0f172a" },
+      fpsLimit: 60,
+      particles: {
+        number: { value: 80 },
+        color: { value: "#06b6d4" },
+        shape: { type: "circle" },
+        opacity: { value: 0.3 },
+        size: { value: 2 },
+        move: { enable: true, speed: 1, outModes: "out" }
+      },
+      interactivity: {
+        events: {
+          onHover: { enable: true, mode: "repulse" },
+          onClick: { enable: true, mode: "push" }
+        },
+        modes: {
+          repulse: { distance: 100 },
+          push: { quantity: 4 }
+        }
+      },
+      detectRetina: true
+    });
+  </script>
+</body>
+</html>
