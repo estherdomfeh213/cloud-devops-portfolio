@@ -80,7 +80,7 @@ open index.html   # (or double-click in your file explorer)
 
 ---
 
-© 2025 [Esther Domfeh]. Built with ❤️ using Tailwind CSS, GitHub Actions, and Netlify.
+© 2025 Esther Domfeh. Built with ❤️ using Tailwind CSS, GitHub Actions, and Netlify.
 
 
 
