@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DevOps Portfolio - Your Name</title>
+  <title>DevOps Portfolio - Esther Domfeh</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { font-family: 'Fira Code', monospace; }
@@ -27,7 +27,7 @@
   <!-- Navbar -->
   <header class="sticky top-0 bg-gray-800/80 backdrop-blur shadow z-50">
     <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
-      <h1 class="text-xl font-bold text-cyan-400">[YourName]$</h1>
+      <h1 class="text-xl font-bold text-cyan-400">esther_domfeh$</h1>
       <nav>
         <ul class="flex gap-6 text-gray-400">
           <li><a href="#about" class="hover:text-cyan-400">about</a></li>
@@ -40,22 +40,27 @@
   </header>
 
   <!-- Hero -->
-  <section class="text-center py-20">
-    <h2 class="text-5xl font-bold text-white mb-4">Hi, I’m [Your Name]</h2>
-    <p class="text-lg text-gray-200 max-w-2xl mx-auto">
-      Aspiring <span class="text-cyan-300">Cloud & DevOps Engineer</span> 🚀 <br />
-      I design automated, scalable, and secure systems.
-    </p>
-  </section>
+<!-- Hero with animated particle background -->
+<section class="relative text-center py-20 bg-gray-900 overflow-hidden">
+  <div id="particles-js" class="absolute inset-0"></div>
+  
+  <div class="relative z-10 max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 px-6">
+    
+    <!-- Profile Image -->
+    <img src="img/5972005807677625088.jpg" alt="esther's profile pic"
+         class="w-40 h-40 rounded-full border-4 border-cyan-400 shadow-lg object-cover">
+    
+    <!-- Text Content -->
+    <div>
+      <h2 class="text-5xl font-bold text-white mb-4">Hi, I’m Esther Domfeh</h2>
+      <p class="text-lg text-gray-300">
+        Aspiring <span class="text-cyan-300">Cloud & DevOps Engineer</span>  <br />
+        I design automated, scalable, and secure systems.
+      </p>
+    </div>
+  </div>
+</section>
 
-  <!-- About -->
-  <section id="about" class="max-w-4xl mx-auto py-16 px-6">
-    <h3 class="text-2xl font-bold text-purple-400 mb-6">> about_me</h3>
-    <p class="text-gray-300">
-      I am a Cloud and DevOps enthusiast with hands-on experience in Docker, Kubernetes, Terraform, and CI/CD. 
-      My mission is to build reliable infrastructure and streamline deployment pipelines.
-    </p>
-  </section>
 
   <!-- Projects -->
   <section id="projects" class="bg-gray-800/70 py-16 px-6">
@@ -105,7 +110,7 @@
 
   <!-- Footer -->
   <footer class="bg-gray-900 py-6 text-center text-gray-600 text-sm border-t border-gray-700">
-    © 2025 Your Name • Built with ❤️ using Tailwind CSS
+    © 2025 Esther Domfeh • Built with ❤️ using Tailwind CSS
   </footer>
 
   <!-- Particles Config -->
